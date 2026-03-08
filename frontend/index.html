@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sadhanam Kayyil Undo? - AI-powered ticket reselling marketplace. Buy and sell event tickets with fraud detection and smart pricing.">
+  <title>Sadhanam Kayyil Undo? — AI Ticket Marketplace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#/" class="nav-logo" id="nav-logo">
+        <span class="logo-text">Sadhanam Kayyil Undo<span class="logo-q">?</span></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#/browse" class="nav-link" id="nav-browse">Browse Events</a>
+        <a href="#/sell" class="nav-link" id="nav-sell">Sell Ticket</a>
+        <a href="#/dashboard" class="nav-link" id="nav-dashboard" style="display:none;">Dashboard</a>
+        <div class="nav-auth" id="nav-auth">
+          <a href="#/login" class="nav-link btn-signin" id="nav-signin">Sign In</a>
+          <a href="#/register" class="nav-link btn-register" id="nav-register">Register</a>
+        </div>
+        <div class="nav-user hidden" id="nav-user">
+          <span class="user-badge" id="user-badge">U</span>
+          <span class="user-name" id="user-name">User</span>
+          <button class="btn-logout" id="btn-logout">Logout</button>
+        </div>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content" id="app"></main>
+
+  <!-- TOAST NOTIFICATIONS -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

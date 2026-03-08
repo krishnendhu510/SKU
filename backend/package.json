@@ -1,0 +1,20 @@
+{
+  "name": "sadhanam-kayyil-undo-backend",
+  "version": "1.0.0",
+  "description": "Backend for Sadhanam Kayyil Undo? AI ticket reselling marketplace",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^11.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  }
+}
