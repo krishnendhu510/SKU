@@ -1,6 +1,6 @@
 # Sadhanam Kayyil Undo? — AI Ticket Reselling Marketplace
 
-An AI-powered ticket reselling platform with fraud detection, pricing prediction, and last-minute rescue deals.
+An AI-powered ticket reselling marketplace with fraud detection, pricing prediction, and last-minute rescue deals.
 
 ## Quick Start
 
